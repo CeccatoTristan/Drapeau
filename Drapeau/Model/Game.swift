@@ -30,7 +30,7 @@ class Game {
         state = .over
         
         //chargement des questions
-        Question.init(title: "FRANCE", reponse: "France")
+        var question = Question(Title: "FRANCE", Reponse: "France")
         
         state = .ongoing
         

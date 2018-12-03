@@ -14,6 +14,7 @@
 		B6956AD221B50F0500BDCC15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6956AD021B50F0500BDCC15 /* LaunchScreen.storyboard */; };
 		B6956ADD21B50F0500BDCC15 /* DrapeauTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6956ADC21B50F0500BDCC15 /* DrapeauTests.swift */; };
 		B6956AE821B50F0500BDCC15 /* DrapeauUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6956AE721B50F0500BDCC15 /* DrapeauUITests.swift */; };
+		B6956AFA21B514E800BDCC15 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6956AF921B514E800BDCC15 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B6956AE321B50F0500BDCC15 /* DrapeauUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrapeauUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6956AE721B50F0500BDCC15 /* DrapeauUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrapeauUITests.swift; sourceTree = "<group>"; };
 		B6956AE921B50F0500BDCC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6956AF921B514E800BDCC15 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		B6956ABB21B50F0400BDCC15 = {
 			isa = PBXGroup;
 			children = (
+				B6956AF921B514E800BDCC15 /* Default-568h@2x.png */,
 				B6956AC621B50F0400BDCC15 /* Drapeau */,
 				B6956ADB21B50F0500BDCC15 /* DrapeauTests */,
 				B6956AE621B50F0500BDCC15 /* DrapeauUITests */,
@@ -97,12 +100,10 @@
 		B6956AC621B50F0400BDCC15 /* Drapeau */ = {
 			isa = PBXGroup;
 			children = (
-				B6956AC721B50F0400BDCC15 /* AppDelegate.swift */,
-				B6956AC921B50F0400BDCC15 /* ViewController.swift */,
-				B6956ACB21B50F0400BDCC15 /* Main.storyboard */,
-				B6956ACE21B50F0500BDCC15 /* Assets.xcassets */,
-				B6956AD021B50F0500BDCC15 /* LaunchScreen.storyboard */,
-				B6956AD321B50F0500BDCC15 /* Info.plist */,
+				B6956AF821B50F8800BDCC15 /* SupportingFiles */,
+				B6956AF721B50F4000BDCC15 /* View */,
+				B6956AF621B50F3000BDCC15 /* Controller */,
+				B6956AF521B50F2100BDCC15 /* Model */,
 			);
 			path = Drapeau;
 			sourceTree = "<group>";
@@ -123,6 +124,40 @@
 				B6956AE921B50F0500BDCC15 /* Info.plist */,
 			);
 			path = DrapeauUITests;
+			sourceTree = "<group>";
+		};
+		B6956AF521B50F2100BDCC15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6956AF621B50F3000BDCC15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B6956AC921B50F0400BDCC15 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B6956AF721B50F4000BDCC15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6956ACB21B50F0400BDCC15 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B6956AF821B50F8800BDCC15 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B6956AC721B50F0400BDCC15 /* AppDelegate.swift */,
+				B6956ACE21B50F0500BDCC15 /* Assets.xcassets */,
+				B6956AD021B50F0500BDCC15 /* LaunchScreen.storyboard */,
+				B6956AD321B50F0500BDCC15 /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6956AD221B50F0500BDCC15 /* LaunchScreen.storyboard in Resources */,
+				B6956AFA21B514E800BDCC15 /* Default-568h@2x.png in Resources */,
 				B6956ACF21B50F0500BDCC15 /* Assets.xcassets in Resources */,
 				B6956ACD21B50F0400BDCC15 /* Main.storyboard in Resources */,
 			);

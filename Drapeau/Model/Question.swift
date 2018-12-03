@@ -12,8 +12,8 @@ class Question {
     var title = ""
     var reponse = ""
     
-    init(String : title, String : reponse) {
-        title = title
-        reponse = reponse
+    init(String : Title, String : Reponse) {
+        title = Title
+        reponse = Reponse
     }
 }

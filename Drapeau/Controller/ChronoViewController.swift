@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  ThirdViewController.swift
 //  Drapeau
 //
 //  Created by Tristan Ceccato on 03/12/2018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class ChronoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

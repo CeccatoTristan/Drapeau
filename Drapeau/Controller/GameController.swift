@@ -14,6 +14,8 @@ class GameController: UIViewController {
     @IBOutlet weak var newGameButton: UIButton!
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var questionView: QuestionView!
+    @IBOutlet weak var reponse1: UIButton!
+    @IBOutlet weak var reponse2: UIButton!
     
     var game = Game()
     
@@ -23,7 +25,22 @@ class GameController: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(questionsLoaded), name: name, object: nil)
         
         startNewGame()
+        
+        if game.state == .ongoing {
+            
+        }
+        
     }
+    
+       @IBAction func clicReponse(sender: UIButton) {
+            
+            if (sender == reponse1) {
+                game.answerCurrentQuestion(with: reponse1.currentTitle!)
+            }else if (sender == reponse2){
+                game.answerCurrentQuestion(with: reponse1.currentTitle!)
+            }
+            
+        }
     
     @objc func questionsLoaded(){
         newGameButton.isHidden = false

@@ -53,6 +53,23 @@ class DifficultyViewController: UIViewController {
     
     @IBOutlet weak var btnDifficile: UIButton!
     
+    @IBAction func FunctionHard(_ sender: Any) {
+        
+        if(intPassed == 1){
+            
+            let myVC = storyboard?.instantiateViewController(withIdentifier: "SurvieHardViewController") as! SurvieHardViewController
+            navigationController?.pushViewController(myVC, animated: true)
+            
+        }
+            
+        else if (intPassed == 2){
+            
+            let myVC = storyboard?.instantiateViewController(withIdentifier: "ChronoHardViewController") as! ChronoHardViewController
+            navigationController?.pushViewController(myVC, animated: true)
+            
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

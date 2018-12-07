@@ -6,15 +6,19 @@
 //  Copyright © 2018 Tristan Ceccato. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-class Game {
+public class Game {
     var score = 0
     
-    private var questions = [Question]()
+    private var questions: [Question] = [Question(Title: "",Reponse: "")]
     private var currentIndex = 0
     
     var state: State = .ongoing
+    
+    init() {
+        
+    }
     
     enum State {
         case ongoing, over
@@ -27,11 +31,6 @@ class Game {
     func refresh() {
         score = 0
         currentIndex = 0
-        state = .over
-        
-        //chargement des questions
-        var question = Question(Title: "FRANCE", Reponse: "France")
-        
         state = .ongoing
         
         let name = Notification.Name(rawValue: "QuestionLoaded")

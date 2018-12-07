@@ -10,12 +10,12 @@ import UIKit
 
 class GameController: UIViewController {
 
-   
-    @IBOutlet weak var newGameButton: UIButton!
-    @IBOutlet weak var scoreLabel: UILabel!
-    @IBOutlet weak var questionView: QuestionView!
     @IBOutlet weak var reponse1: UIButton!
     @IBOutlet weak var reponse2: UIButton!
+    @IBOutlet weak var newGameButton: UIButton!
+    @IBOutlet weak var questionView: QuestionView!
+    @IBOutlet weak var questionLabel: UILabel!
+    
     
     var game = Game()
     
@@ -45,7 +45,7 @@ class GameController: UIViewController {
     @objc func questionsLoaded(){
         newGameButton.isHidden = false
         
-        questionView.title = game.currentQuestion.title
+        questionView.label.text = game.currentQuestion.title
     }
     
     @IBAction func didTapNewGameButton() {
@@ -55,8 +55,12 @@ class GameController: UIViewController {
     private func startNewGame(){
         newGameButton.isHidden = true
         
-        questionView.title = "Loading..."
-        questionView.style = .standard
+        DispatchQueue.main.async {
+            self.questionView.label.text = "Loading..."
+            self.questionView.style = .standard
+        }
+        
+        
         //scoreLabel = 0
         
         game.refresh()

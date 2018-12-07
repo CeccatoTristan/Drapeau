@@ -18,8 +18,8 @@ class QuestionView: UIView {
     }
     */
     
-    @IBOutlet private var label: UILabel!
-    @IBOutlet private var icon: UIImageView!
+    @IBOutlet var label: UILabel!
+    @IBOutlet var icon: UIImageView!
     
     enum Style {
         case correct, incorrect, standard
@@ -44,12 +44,5 @@ class QuestionView: UIView {
             icon.isHidden = true
         }
     }
-    
-    var title = "" {
-        didSet {
-            label.text = title
-        }
-    }
-    
 
 }

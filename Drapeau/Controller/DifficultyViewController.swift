@@ -11,21 +11,45 @@ import UIKit
 class DifficultyViewController: UIViewController {
     
     var modePassed : String = ""
+    var intPassed = Int()
     
     @IBOutlet weak var btnFacile: UIButton!
     
-    @IBAction func btnFacile (sender: Any) {
+    @IBAction func FunctionEasy(_ sender: Any) {
         
-      //  if(modePassed == "Survie"){
+         if(intPassed == 1){
+       
+            let myVC = storyboard?.instantiateViewController(withIdentifier: "SurvieEasyViewController") as! SurvieEasyViewController
+            navigationController?.pushViewController(myVC, animated: true)
+         
+          }
             
+            else if (intPassed == 2){
                 
-            performSegue(withIdentifier: "ChronoEasy", sender: self)
+         let myVC = storyboard?.instantiateViewController(withIdentifier: "ChronoEasyViewController") as! ChronoEasyViewController
+         navigationController?.pushViewController(myVC, animated: true)
             
-            
-      //  }
+         }
     }
-    
+
     @IBOutlet weak var btnMoyen: UIButton!
+    
+    @IBAction func FunctionMedium(_ sender: Any) {
+        
+        if(intPassed == 1){
+            
+            let myVC = storyboard?.instantiateViewController(withIdentifier: "SurvieMediumViewController") as! SurvieMediumViewController
+            navigationController?.pushViewController(myVC, animated: true)
+            
+        }
+            
+        else if (intPassed == 2){
+            
+            let myVC = storyboard?.instantiateViewController(withIdentifier: "ChronoMediumViewController") as! ChronoMediumViewController
+            navigationController?.pushViewController(myVC, animated: true)
+            
+        }
+    }
     
     @IBOutlet weak var btnDifficile: UIButton!
     

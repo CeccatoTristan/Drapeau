@@ -14,19 +14,23 @@ class MenuViewController: UIViewController {
 
     var modeLabel: String = ""
     
+    var myInt = Int()
+    @IBOutlet weak var btnSurvie: UIButton!
     
-    @IBOutlet weak var btnSurvie: UIImageView!
-    @IBAction func btnSurvie (_ sender: Any) {
+    
+    @IBAction func btnSurvieFunct (_ sender: Any) {
         let myVC = storyboard?.instantiateViewController(withIdentifier: "DifficultyViewController") as! DifficultyViewController
-        performSegue(withIdentifier: "Survie", sender: self)
-        modeLabel = "Survie"
-        myVC.modePassed = modeLabel
+        myInt = 1
+        myVC.intPassed = myInt
+        navigationController?.pushViewController(myVC, animated: true)
     }
     
     @IBOutlet weak var btnChrono: UIButton!
-    @IBAction func btnChrono (_ sender: Any) {
-        performSegue(withIdentifier: "Chrono", sender: self)
-        modeLabel = "Chrono"
+    @IBAction func btnChronoFunct (_ sender: Any) {
+        let myVC = storyboard?.instantiateViewController(withIdentifier: "DifficultyViewController") as! DifficultyViewController
+        myInt = 2
+        myVC.intPassed = myInt
+        navigationController?.pushViewController(myVC, animated: true)
     }
     
     

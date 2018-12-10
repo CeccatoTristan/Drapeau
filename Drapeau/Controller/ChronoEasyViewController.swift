@@ -8,12 +8,33 @@
 
 import UIKit
 
-class ChronoEasyViewController: UIViewController {
 
+class ChronoEasyViewController: UIViewController {
+    
+    
+    @IBOutlet weak var timerLabel: UILabel!
+    
+    
+    @IBAction func endGame (_ sender: Any) {
+        let myVC = storyboard?.instantiateViewController(withIdentifier: "GameOverViewController") as! GameOverViewController
+        myVC.replayCode = 21
+        navigationController?.pushViewController(myVC, animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        func time() {
+            for i in stride (from : 60, to : 0, by : -1) {
+                
+                print (i)
+                sleep(1)
+                timerLabel.text = "\(i) seconds left"
+                
+            }
+        }
 
-        // Do any additional setup after loading the view.
+        
     }
 
     override func didReceiveMemoryWarning() {

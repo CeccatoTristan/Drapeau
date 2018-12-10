@@ -9,6 +9,12 @@
 import UIKit
 
 class SurvieEasyViewController: UIViewController {
+    
+    @IBAction func endGame (_ sender: Any) {
+        let myVC = storyboard?.instantiateViewController(withIdentifier: "GameOverViewController") as! GameOverViewController
+        myVC.replayCode = 11
+        navigationController?.pushViewController(myVC, animated: true)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

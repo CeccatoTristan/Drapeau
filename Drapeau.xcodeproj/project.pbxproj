@@ -20,6 +20,7 @@
 		B6956AD221B50F0500BDCC15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6956AD021B50F0500BDCC15 /* LaunchScreen.storyboard */; };
 		B6956AFA21B514E800BDCC15 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6956AF921B514E800BDCC15 /* Default-568h@2x.png */; };
 		B6956AFC21B520B500BDCC15 /* DifficultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6956AFB21B520B500BDCC15 /* DifficultyViewController.swift */; };
+		B69E038121BE4AF600B0B14A /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69E038021BE4AF600B0B14A /* GameOverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		B6956AD321B50F0500BDCC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6956AF921B514E800BDCC15 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B6956AFB21B520B500BDCC15 /* DifficultyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyViewController.swift; sourceTree = "<group>"; };
+		B69E038021BE4AF600B0B14A /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				B61F2A2721BA8C18008BCFEC /* ChronoMediumViewController.swift */,
 				B61F2A2921BA8DD6008BCFEC /* SurvieHardViewController.swift */,
 				B61F2A2B21BA8DED008BCFEC /* ChronoHardViewController.swift */,
+				B69E038021BE4AF600B0B14A /* GameOverViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				B61F2A2821BA8C18008BCFEC /* ChronoMediumViewController.swift in Sources */,
 				B61F2A2621BA8BFE008BCFEC /* SurvieMediumViewController.swift in Sources */,
 				B6956AFC21B520B500BDCC15 /* DifficultyViewController.swift in Sources */,
+				B69E038121BE4AF600B0B14A /* GameOverViewController.swift in Sources */,
 				B6956ACA21B50F0400BDCC15 /* MenuViewController.swift in Sources */,
 				B6956AC821B50F0400BDCC15 /* AppDelegate.swift in Sources */,
 				B61F2A2A21BA8DD6008BCFEC /* SurvieHardViewController.swift in Sources */,
@@ -462,7 +466,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Drapeau/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,7 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Drapeau/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

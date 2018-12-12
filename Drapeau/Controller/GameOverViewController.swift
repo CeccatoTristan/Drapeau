@@ -56,6 +56,11 @@ class GameOverViewController: UIViewController {
         }
     }
 
+    @IBAction func menu(_ sender: Any) {
+        let myVC = storyboard?.instantiateViewController(withIdentifier: "MenuViewController") as! MenuViewController
+        navigationController?.pushViewController(myVC, animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

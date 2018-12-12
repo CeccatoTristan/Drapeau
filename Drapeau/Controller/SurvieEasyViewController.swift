@@ -10,17 +10,24 @@ import UIKit
 
 class SurvieEasyViewController: UIViewController {
     
+    var myInt = Int()
+    
     @IBAction func endGame (_ sender: Any) {
         let myVC = storyboard?.instantiateViewController(withIdentifier: "GameOverViewController") as! GameOverViewController
-        myVC.replayCode = 11
+        myInt = 11
+        myVC.replayCode = myInt
         navigationController?.pushViewController(myVC, animated: true)
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let myVC = storyboard?.instantiateViewController(withIdentifier: "GameOverViewController") as! GameOverViewController
+        myInt = 11
+        myVC.replayCode = myInt
+        navigationController?.pushViewController(myVC, animated: true)
     }
+        // Do any additional setup after loading the view.
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

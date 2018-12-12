@@ -1,14 +1,14 @@
 //
-//  ThirdViewController.swift
+//  GameOverViewController.swift
 //  Drapeau
 //
-//  Created by Tristan Ceccato on 03/12/2018.
+//  Created by Tristan Ceccato on 10/12/2018.
 //  Copyright © 2018 Tristan Ceccato. All rights reserved.
 //
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class GameOverViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

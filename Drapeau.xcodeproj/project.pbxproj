@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B61F2A2221BA7877008BCFEC /* ChronoEasyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F2A2121BA7877008BCFEC /* ChronoEasyViewController.swift */; };
+		B61F2A2421BA7B86008BCFEC /* SurvieEasyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F2A2321BA7B86008BCFEC /* SurvieEasyViewController.swift */; };
+		B61F2A2621BA8BFE008BCFEC /* SurvieMediumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F2A2521BA8BFE008BCFEC /* SurvieMediumViewController.swift */; };
+		B61F2A2821BA8C18008BCFEC /* ChronoMediumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F2A2721BA8C18008BCFEC /* ChronoMediumViewController.swift */; };
+		B61F2A2A21BA8DD6008BCFEC /* SurvieHardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F2A2921BA8DD6008BCFEC /* SurvieHardViewController.swift */; };
+		B61F2A2C21BA8DED008BCFEC /* ChronoHardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F2A2B21BA8DED008BCFEC /* ChronoHardViewController.swift */; };
 		B6956AC821B50F0400BDCC15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6956AC721B50F0400BDCC15 /* AppDelegate.swift */; };
-		B6956ACA21B50F0400BDCC15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6956AC921B50F0400BDCC15 /* ViewController.swift */; };
+		B6956ACA21B50F0400BDCC15 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6956AC921B50F0400BDCC15 /* MenuViewController.swift */; };
 		B6956ACD21B50F0400BDCC15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6956ACB21B50F0400BDCC15 /* Main.storyboard */; };
 		B6956ACF21B50F0500BDCC15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6956ACE21B50F0500BDCC15 /* Assets.xcassets */; };
 		B6956AD221B50F0500BDCC15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6956AD021B50F0500BDCC15 /* LaunchScreen.storyboard */; };
-		B6956ADD21B50F0500BDCC15 /* DrapeauTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6956ADC21B50F0500BDCC15 /* DrapeauTests.swift */; };
-		B6956AE821B50F0500BDCC15 /* DrapeauUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6956AE721B50F0500BDCC15 /* DrapeauUITests.swift */; };
 		B6956AFA21B514E800BDCC15 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6956AF921B514E800BDCC15 /* Default-568h@2x.png */; };
-		B6956AFC21B520B500BDCC15 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6956AFB21B520B500BDCC15 /* SecondViewController.swift */; };
-		B6956AFE21B531EB00BDCC15 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6956AFD21B531EB00BDCC15 /* ThirdViewController.swift */; };
+		B6956AFC21B520B500BDCC15 /* DifficultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6956AFB21B520B500BDCC15 /* DifficultyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,22 +40,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B6956AC421B50F0400BDCC15 /* Drapeau.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drapeau.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61F2A1E21BA5750008BCFEC /* Drapeau.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drapeau.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61F2A1F21BA6621008BCFEC /* DrapeauTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrapeauTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61F2A2021BA6621008BCFEC /* DrapeauUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrapeauUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61F2A2121BA7877008BCFEC /* ChronoEasyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronoEasyViewController.swift; sourceTree = "<group>"; };
+		B61F2A2321BA7B86008BCFEC /* SurvieEasyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurvieEasyViewController.swift; sourceTree = "<group>"; };
+		B61F2A2521BA8BFE008BCFEC /* SurvieMediumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurvieMediumViewController.swift; sourceTree = "<group>"; };
+		B61F2A2721BA8C18008BCFEC /* ChronoMediumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronoMediumViewController.swift; sourceTree = "<group>"; };
+		B61F2A2921BA8DD6008BCFEC /* SurvieHardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurvieHardViewController.swift; sourceTree = "<group>"; };
+		B61F2A2B21BA8DED008BCFEC /* ChronoHardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronoHardViewController.swift; sourceTree = "<group>"; };
 		B6956AC721B50F0400BDCC15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6956AC921B50F0400BDCC15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6956AC921B50F0400BDCC15 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		B6956ACC21B50F0400BDCC15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6956ACE21B50F0500BDCC15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6956AD121B50F0500BDCC15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6956AD321B50F0500BDCC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6956AD821B50F0500BDCC15 /* DrapeauTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrapeauTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6956ADC21B50F0500BDCC15 /* DrapeauTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrapeauTests.swift; sourceTree = "<group>"; };
-		B6956ADE21B50F0500BDCC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6956AE321B50F0500BDCC15 /* DrapeauUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrapeauUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6956AE721B50F0500BDCC15 /* DrapeauUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrapeauUITests.swift; sourceTree = "<group>"; };
-		B6956AE921B50F0500BDCC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6956AF921B514E800BDCC15 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		B6956AFB21B520B500BDCC15 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		B6956AFD21B531EB00BDCC15 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		B6956AFB21B520B500BDCC15 /* DifficultyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,20 +89,10 @@
 			children = (
 				B6956AF921B514E800BDCC15 /* Default-568h@2x.png */,
 				B6956AC621B50F0400BDCC15 /* Drapeau */,
-				B6956ADB21B50F0500BDCC15 /* DrapeauTests */,
-				B6956AE621B50F0500BDCC15 /* DrapeauUITests */,
-				B6956AC521B50F0400BDCC15 /* Products */,
+				B61F2A1E21BA5750008BCFEC /* Drapeau.app */,
+				B61F2A1F21BA6621008BCFEC /* DrapeauTests.xctest */,
+				B61F2A2021BA6621008BCFEC /* DrapeauUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		B6956AC521B50F0400BDCC15 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B6956AC421B50F0400BDCC15 /* Drapeau.app */,
-				B6956AD821B50F0500BDCC15 /* DrapeauTests.xctest */,
-				B6956AE321B50F0500BDCC15 /* DrapeauUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B6956AC621B50F0400BDCC15 /* Drapeau */ = {
@@ -112,24 +106,6 @@
 			path = Drapeau;
 			sourceTree = "<group>";
 		};
-		B6956ADB21B50F0500BDCC15 /* DrapeauTests */ = {
-			isa = PBXGroup;
-			children = (
-				B6956ADC21B50F0500BDCC15 /* DrapeauTests.swift */,
-				B6956ADE21B50F0500BDCC15 /* Info.plist */,
-			);
-			path = DrapeauTests;
-			sourceTree = "<group>";
-		};
-		B6956AE621B50F0500BDCC15 /* DrapeauUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B6956AE721B50F0500BDCC15 /* DrapeauUITests.swift */,
-				B6956AE921B50F0500BDCC15 /* Info.plist */,
-			);
-			path = DrapeauUITests;
-			sourceTree = "<group>";
-		};
 		B6956AF521B50F2100BDCC15 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,9 +116,14 @@
 		B6956AF621B50F3000BDCC15 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B6956AC921B50F0400BDCC15 /* ViewController.swift */,
-				B6956AFB21B520B500BDCC15 /* SecondViewController.swift */,
-				B6956AFD21B531EB00BDCC15 /* ThirdViewController.swift */,
+				B6956AC921B50F0400BDCC15 /* MenuViewController.swift */,
+				B6956AFB21B520B500BDCC15 /* DifficultyViewController.swift */,
+				B61F2A2121BA7877008BCFEC /* ChronoEasyViewController.swift */,
+				B61F2A2321BA7B86008BCFEC /* SurvieEasyViewController.swift */,
+				B61F2A2521BA8BFE008BCFEC /* SurvieMediumViewController.swift */,
+				B61F2A2721BA8C18008BCFEC /* ChronoMediumViewController.swift */,
+				B61F2A2921BA8DD6008BCFEC /* SurvieHardViewController.swift */,
+				B61F2A2B21BA8DED008BCFEC /* ChronoHardViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -183,7 +164,7 @@
 			);
 			name = Drapeau;
 			productName = Drapeau;
-			productReference = B6956AC421B50F0400BDCC15 /* Drapeau.app */;
+			productReference = B61F2A1E21BA5750008BCFEC /* Drapeau.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B6956AD721B50F0500BDCC15 /* DrapeauTests */ = {
@@ -201,7 +182,7 @@
 			);
 			name = DrapeauTests;
 			productName = DrapeauTests;
-			productReference = B6956AD821B50F0500BDCC15 /* DrapeauTests.xctest */;
+			productReference = B61F2A1F21BA6621008BCFEC /* DrapeauTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		B6956AE221B50F0500BDCC15 /* DrapeauUITests */ = {
@@ -219,7 +200,7 @@
 			);
 			name = DrapeauUITests;
 			productName = DrapeauUITests;
-			productReference = B6956AE321B50F0500BDCC15 /* DrapeauUITests.xctest */;
+			productReference = B61F2A2021BA6621008BCFEC /* DrapeauUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -254,7 +235,7 @@
 				Base,
 			);
 			mainGroup = B6956ABB21B50F0400BDCC15;
-			productRefGroup = B6956AC521B50F0400BDCC15 /* Products */;
+			productRefGroup = B6956ABB21B50F0400BDCC15;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -298,10 +279,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6956AFC21B520B500BDCC15 /* SecondViewController.swift in Sources */,
-				B6956ACA21B50F0400BDCC15 /* ViewController.swift in Sources */,
-				B6956AFE21B531EB00BDCC15 /* ThirdViewController.swift in Sources */,
+				B61F2A2C21BA8DED008BCFEC /* ChronoHardViewController.swift in Sources */,
+				B61F2A2821BA8C18008BCFEC /* ChronoMediumViewController.swift in Sources */,
+				B61F2A2621BA8BFE008BCFEC /* SurvieMediumViewController.swift in Sources */,
+				B6956AFC21B520B500BDCC15 /* DifficultyViewController.swift in Sources */,
+				B6956ACA21B50F0400BDCC15 /* MenuViewController.swift in Sources */,
 				B6956AC821B50F0400BDCC15 /* AppDelegate.swift in Sources */,
+				B61F2A2A21BA8DD6008BCFEC /* SurvieHardViewController.swift in Sources */,
+				B61F2A2221BA7877008BCFEC /* ChronoEasyViewController.swift in Sources */,
+				B61F2A2421BA7B86008BCFEC /* SurvieEasyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +295,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6956ADD21B50F0500BDCC15 /* DrapeauTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +302,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6956AE821B50F0500BDCC15 /* DrapeauUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +462,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Drapeau/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -495,6 +480,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Drapeau/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
